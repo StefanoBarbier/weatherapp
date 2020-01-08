@@ -1,0 +1,43 @@
+.main {
+  height: 80vh;
+  background: #fff;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-container {
+  height: 80vh;
+  background: url("./clouds.jpg") center center no-repeat;
+  background-size: cover;
+  display: inline-block flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(11, 3, 82);
+  padding-top: 10em;
+}
+
+.input-element{
+font-size: 20px; 
+width: 200px;
+}
+
+.button-element{
+font-size: 20px; 
+width: 200px;
+cursor: pointer;
+font-weight: lighter;
+border-radius: 5px;
+}
+
+.weather__value {
+  font-weight: 200;
+  font-size: 1em; 
+}
+
+.weather__key {
+  padding: 5px 0 5px 0;
+  font-weight: 400;
+  font-size: 2em; 
+}
